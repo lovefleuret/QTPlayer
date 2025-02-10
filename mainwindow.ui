@@ -14,7 +14,7 @@
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralWidget">
-   <widget class="QWidget" name="widget" native="true">
+   <widget class="DisplayWind" name="widget" native="true">
     <property name="geometry">
      <rect>
       <x>60</x>
@@ -58,7 +58,7 @@
    <attribute name="dockWidgetArea">
     <number>2</number>
    </attribute>
-   <widget class="QWidget" name="dockWidgetContents"/>
+   <widget class="PlayListWind" name="dockWidgetContents"/>
   </widget>
   <widget class="QDockWidget" name="dockWidget_2">
    <attribute name="dockWidgetArea">
@@ -79,6 +79,18 @@
    <class>TitleBar</class>
    <extends>QWidget</extends>
    <header location="global">titlebar.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>PlayListWind</class>
+   <extends>QWidget</extends>
+   <header location="global">playlistwind.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>DisplayWind</class>
+   <extends>QWidget</extends>
+   <header location="global">displaywind.h</header>
    <container>1</container>
   </customwidget>
  </customwidgets>

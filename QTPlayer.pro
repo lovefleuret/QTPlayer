@@ -27,14 +27,20 @@ SOURCES += \
         main.cpp \
         mainwindow.cpp \
     ctrlbar.cpp \
-    titlebar.cpp
+    titlebar.cpp \
+    playlistwind.cpp \
+    displaywind.cpp
 
 HEADERS += \
         mainwindow.h \
     ctrlbar.h \
-    titlebar.h
+    titlebar.h \
+    playlistwind.h \
+    displaywind.h
 
 FORMS += \
         mainwindow.ui \
     ctrlbar.ui \
-    titlebar.ui
+    titlebar.ui \
+    playlistwind.ui \
+    dilplaywind.ui
