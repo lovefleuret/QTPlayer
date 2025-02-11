@@ -6,33 +6,29 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>147</width>
-    <height>488</height>
+    <width>158</width>
+    <height>453</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>Form</string>
   </property>
-  <widget class="QListWidget" name="listWidget">
-   <property name="geometry">
-    <rect>
-     <x>10</x>
-     <y>10</y>
-     <width>131</width>
-     <height>471</height>
-    </rect>
-   </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
    <item>
-    <property name="text">
-     <string>娜扎2</string>
-    </property>
+    <widget class="QListWidget" name="listWidget">
+     <item>
+      <property name="text">
+       <string>娜扎2</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>黑神话悟空</string>
+      </property>
+     </item>
+    </widget>
    </item>
-   <item>
-    <property name="text">
-     <string>黑神话悟空</string>
-    </property>
-   </item>
-  </widget>
+  </layout>
  </widget>
  <resources/>
  <connections/>
