@@ -44,3 +44,6 @@ FORMS += \
     titlebar.ui \
     playlistwind.ui \
     displaywind.ui
+
+RESOURCES += \
+    icon.qrc
