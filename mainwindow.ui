@@ -6,41 +6,72 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1147</width>
-    <height>694</height>
+    <width>1280</width>
+    <height>800</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralWidget">
-   <widget class="DisplayWind" name="widget" native="true">
-    <property name="geometry">
-     <rect>
-      <x>60</x>
-      <y>40</y>
-      <width>901</width>
-      <height>381</height>
-     </rect>
+   <layout class="QGridLayout" name="gridLayout">
+    <property name="leftMargin">
+     <number>0</number>
     </property>
-   </widget>
-   <widget class="CtrlBar" name="widget_2" native="true">
-    <property name="geometry">
-     <rect>
-      <x>60</x>
-      <y>440</y>
-      <width>901</width>
-      <height>121</height>
-     </rect>
+    <property name="topMargin">
+     <number>0</number>
     </property>
-   </widget>
+    <property name="rightMargin">
+     <number>0</number>
+    </property>
+    <property name="bottomMargin">
+     <number>0</number>
+    </property>
+    <property name="spacing">
+     <number>0</number>
+    </property>
+    <item row="0" column="0">
+     <widget class="QWidget" name="showCtrlBarBgWidget" native="true">
+      <layout class="QGridLayout" name="gridLayout_2">
+       <property name="leftMargin">
+        <number>0</number>
+       </property>
+       <property name="topMargin">
+        <number>0</number>
+       </property>
+       <property name="rightMargin">
+        <number>0</number>
+       </property>
+       <property name="bottomMargin">
+        <number>0</number>
+       </property>
+       <property name="spacing">
+        <number>0</number>
+       </property>
+       <item row="0" column="0">
+        <widget class="DisplayWind" name="showWind" native="true"/>
+       </item>
+       <item row="1" column="0">
+        <widget class="CtrlBar" name="ctrlBarWind" native="true">
+         <property name="minimumSize">
+          <size>
+           <width>300</width>
+           <height>60</height>
+          </size>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
   </widget>
   <widget class="QMenuBar" name="menuBar">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>1147</width>
+     <width>1280</width>
      <height>25</height>
     </rect>
    </property>
@@ -54,17 +85,36 @@
    </attribute>
   </widget>
   <widget class="QStatusBar" name="statusBar"/>
-  <widget class="QDockWidget" name="dockWidget">
+  <widget class="QDockWidget" name="playListDockWidget">
+   <property name="minimumSize">
+    <size>
+     <width>100</width>
+     <height>125</height>
+    </size>
+   </property>
    <attribute name="dockWidgetArea">
     <number>2</number>
    </attribute>
-   <widget class="PlayListWind" name="dockWidgetContents"/>
+   <widget class="PlayListWind" name="playListContents">
+    <property name="minimumSize">
+     <size>
+      <width>100</width>
+      <height>100</height>
+     </size>
+    </property>
+   </widget>
   </widget>
-  <widget class="QDockWidget" name="dockWidget_2">
+  <widget class="QDockWidget" name="titleDockWidget">
+   <property name="minimumSize">
+    <size>
+     <width>200</width>
+     <height>41</height>
+    </size>
+   </property>
    <attribute name="dockWidgetArea">
     <number>4</number>
    </attribute>
-   <widget class="TitleBar" name="dockWidgetContents_2"/>
+   <widget class="TitleBar" name="titleContents"/>
   </widget>
  </widget>
  <layoutdefault spacing="6" margin="11"/>
