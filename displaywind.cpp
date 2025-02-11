@@ -1,5 +1,5 @@
 #include "displaywind.h"
-#include "ui_dilplaywind.h"
+#include "ui_displaywind.h"
 
 DisplayWind::DisplayWind(QWidget *parent) :
     QWidget(parent),
