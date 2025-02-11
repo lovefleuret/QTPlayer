@@ -1,10 +1,10 @@
-#ifndef DILPLAYWIND_H
-#define DILPLAYWIND_H
+#ifndef DISPLAYWIND_H
+#define DISPLAYWIND_H
 
 #include <QWidget>
 
 namespace Ui {
-class DilplayWind;
+class DisplayWind;
 }
 
 class DisplayWind : public QWidget
@@ -16,7 +16,7 @@ public:
     ~DisplayWind();
 
 private:
-    Ui::DilplayWind *ui;
+    Ui::DisplayWind *ui;
 };
 
-#endif // DILPLAYWIND_H
+#endif // DisplayWind_H

@@ -3,7 +3,7 @@
 
 DisplayWind::DisplayWind(QWidget *parent) :
     QWidget(parent),
-    ui(new Ui::DilplayWind)
+    ui(new Ui::DisplayWind)
 {
     ui->setupUi(this);
 }

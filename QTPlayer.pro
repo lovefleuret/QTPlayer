@@ -43,4 +43,4 @@ FORMS += \
     ctrlbar.ui \
     titlebar.ui \
     playlistwind.ui \
-    dilplaywind.ui
+    displaywind.ui
