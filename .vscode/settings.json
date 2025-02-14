@@ -65,6 +65,14 @@
     "scrollbar.shadow": "#00000000"
   },
   "files.associations": {
-    "qapplication": "cpp"
+    "qapplication": "cpp",
+    "condition_variable": "cpp",
+    "mutex": "cpp",
+    "iostream": "cpp",
+    "string": "cpp",
+    "ctime": "cpp",
+    "iomanip": "cpp",
+    "cinttypes": "cpp",
+    "sstream": "cpp"
   }
 }

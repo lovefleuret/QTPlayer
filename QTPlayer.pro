@@ -23,6 +23,8 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 
 SOURCES += \
+    ffmsg_queue.cpp \
+    log.cpp \
         main.cpp \
         mainwindow.cpp \
     ctrlbar.cpp \
@@ -31,6 +33,9 @@ SOURCES += \
     displaywind.cpp
 
 HEADERS += \
+    ffmsg.h \
+    ffmsg_queue.h \
+    log.h \
         mainwindow.h \
     ctrlbar.h \
     titlebar.h \
@@ -59,5 +64,5 @@ LIBS += $$PWD/ffmpeg-4.2.1-win32-dev/lib/avformat.lib   \
         $$PWD/ffmpeg-4.2.1-win32-dev/lib/swresample.lib \
         $$PWD/ffmpeg-4.2.1-win32-dev/lib/swscale.lib    \
         $$PWD/SDL2/lib/x86/SDL2.lib \
-        "C:/Program Files (x86)/Windows Kits/10/Lib/10.0.10240.0/um/x86/Ole32.Lib"
+        "C:/Program Files (x86)/Windows Kits/10/Lib/10.0.26100.0/um/x86/Ole32.Lib"
 }
