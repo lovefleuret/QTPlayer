@@ -1,0 +1,19 @@
+QListWidget#listWidget{
+    background-color: #2E2F30;
+}
+
+/* 设置listWidget的item的字体颜色 */
+QListWidget#listWidget::item{
+    color: #FFFFFF;
+}
+/* 设置listWidget的item的鼠标hover状态 */
+QListWidget#listWidget::item:hover{
+    background-color: #F1ED72;
+}
+
+
+
+DisplayWind#showWind{
+
+    background-color:black
+}

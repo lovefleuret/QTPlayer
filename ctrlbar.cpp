@@ -7,10 +7,10 @@ CtrlBar::CtrlBar(QWidget *parent) :
 {
     ui->setupUi(this);
     //设置按钮图标
-    QIcon icon_play(":/ctrl/icon/play.png");
+    QIcon icon_play(":/res/icon/play.png");
     ui->playOrPauseBtn->setIcon(icon_play);
     
-    QIcon icon_stop(":/ctrl/icon/stop.png");
+    QIcon icon_stop(":/res/icon/stop.png");
     ui->stopBtn->setIcon(icon_stop);
 }
 

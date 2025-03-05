@@ -1,7 +1,8 @@
 <RCC>
-    <qresource prefix="/ctrl">
-        <file>icon/pause.png</file>
-        <file>icon/play.png</file>
-        <file>icon/stop.png</file>
+    <qresource prefix="/">
+        <file>res/icon/pause.png</file>
+        <file>res/icon/play.png</file>
+        <file>res/icon/stop.png</file>
+        <file>res/qss/mainwindow.qss</file>
     </qresource>
 </RCC>

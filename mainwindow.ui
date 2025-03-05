@@ -79,7 +79,7 @@
      <x>0</x>
      <y>0</y>
      <width>1280</width>
-     <height>25</height>
+     <height>26</height>
     </rect>
    </property>
   </widget>
@@ -96,7 +96,7 @@
    <property name="minimumSize">
     <size>
      <width>100</width>
-     <height>125</height>
+     <height>126</height>
     </size>
    </property>
    <attribute name="dockWidgetArea">
@@ -115,7 +115,7 @@
    <property name="minimumSize">
     <size>
      <width>200</width>
-     <height>41</height>
+     <height>42</height>
     </size>
    </property>
    <attribute name="dockWidgetArea">

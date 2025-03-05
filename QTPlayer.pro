@@ -4,7 +4,8 @@
 #
 #-------------------------------------------------
 
-QT       += core gui
+QT       += core gui 
+CONFIG += c++11 console
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
@@ -30,7 +31,9 @@ SOURCES += \
     ctrlbar.cpp \
     titlebar.cpp \
     playlistwind.cpp \
-    displaywind.cpp
+    displaywind.cpp \
+    globalhelper.cpp \
+    easylogging++.cpp
 
 HEADERS += \
     ffmsg.h \
@@ -40,7 +43,9 @@ HEADERS += \
     ctrlbar.h \
     titlebar.h \
     playlistwind.h \
-    displaywind.h
+    displaywind.h \
+    globalhelper.h \
+    easylogging++.h
 
 FORMS += \
         mainwindow.ui \

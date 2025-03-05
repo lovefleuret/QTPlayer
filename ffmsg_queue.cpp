@@ -42,7 +42,8 @@ int FFmsg_Queue::msg_queue_put(MessageQueue *q, AVMessage *msg)
 
 void FFmsg_Queue::msg_init_msg(AVMessage *msg)
 {
-    
+    memset(msg, 0, sizeof(AVMessage));
+
 }
 
 void FFmsg_Queue::msg_queue_put_simple1(MessageQueue *q, int what)
@@ -95,7 +96,14 @@ void FFmsg_Queue::msg_queue_abort(MessageQueue *q)
 
 void FFmsg_Queue::msg_queue_start(MessageQueue *q)
 {
-    
+    SDL_LockMutex(q->mutex);
+    q->abort_request = 0;
+
+    AVMessage msg;
+    msg_init_msg(&msg);
+    msg.what = FFP_MSG_FLUSH;
+    msg_queue_put_private(q, &msg);
+    SDL_UnlockMutex(q->mutex);
 }
 
 int FFmsg_Queue::msg_queue_get(MessageQueue *q, AVMessage *msg, int block)
