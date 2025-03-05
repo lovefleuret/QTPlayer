@@ -20,6 +20,7 @@ private:
 
 
     void initUi();
+    
 };
 
 #endif // MAINWINDOW_H

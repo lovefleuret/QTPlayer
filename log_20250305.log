@@ -1,0 +1,23 @@
+[2025-03-05 15:01:38,205 | TRACE] int main(int, char**)(L21)  logger
+[2025-03-05 15:01:38,205 | INFO] int main(int, char**)(L23) logger test
+[2025-03-05 15:01:38,205 | WARNING] int main(int, char**)(L24) logger test
+[2025-03-05 15:01:38,206 | ERROR] int main(int, char**)(L25) logger test
+[2025-03-05 15:02:30,077 | TRACE] int main(int, char**)(L21)  logger
+[2025-03-05 15:02:30,077 | INFO] int main(int, char**)(L23) logger test
+[2025-03-05 15:02:30,078 | WARNING] int main(int, char**)(L24) logger test
+[2025-03-05 15:02:30,078 | ERROR] int main(int, char**)(L25) logger test
+[2025-03-05 15:02:31,380 | TRACE] void FFmsg_Queue::show_queue_info(MessageQueue*)(L185) msg_queue_get: 0
+[2025-03-05 15:02:46,226 | TRACE] int main(int, char**)(L21)  logger
+[2025-03-05 15:02:46,228 | INFO] int main(int, char**)(L23) logger test
+[2025-03-05 15:02:46,228 | WARNING] int main(int, char**)(L24) logger test
+[2025-03-05 15:02:46,228 | ERROR] int main(int, char**)(L25) logger test
+[2025-03-05 15:04:01,997 | TRACE] int main(int, char**)(L21)  logger
+[2025-03-05 15:04:01,998 | INFO] int main(int, char**)(L23) logger test
+[2025-03-05 15:04:01,998 | WARNING] int main(int, char**)(L24) logger test
+[2025-03-05 15:04:01,998 | ERROR] int main(int, char**)(L25) logger test
+[2025-03-05 15:04:10,672 | TRACE] void FFmsg_Queue::show_queue_info(MessageQueue*)(L185) msg_queue_get: 0
+[2025-03-05 16:54:51,586 | TRACE] int main(int, char**)(L21)  logger
+[2025-03-05 16:54:51,586 | INFO] int main(int, char**)(L23) logger test
+[2025-03-05 16:54:51,586 | WARNING] int main(int, char**)(L24) logger test
+[2025-03-05 16:54:51,586 | ERROR] int main(int, char**)(L25) logger test
+[2025-03-05 16:54:53,328 | TRACE] void FFmsg_Queue::show_queue_info(MessageQueue*)(L185) msg_queue_get: 8

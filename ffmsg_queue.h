@@ -59,6 +59,8 @@ int msg_queue_get(MessageQueue *q, AVMessage *msg, int block);
 // 消息删除 把队列里同一消息类型的消息全删除掉
 void msg_queue_remove(MessageQueue *q, int what);
 
+void show_queue_info(MessageQueue *q);
+
 };
 
 #endif // FFMSG_QUEUE_H

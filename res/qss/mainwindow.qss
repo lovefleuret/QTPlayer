@@ -8,7 +8,7 @@ QListWidget#listWidget::item{
 }
 /* 设置listWidget的item的鼠标hover状态 */
 QListWidget#listWidget::item:hover{
-    background-color: #F1ED72;
+    background-color: #313C40;
 }
 
 
